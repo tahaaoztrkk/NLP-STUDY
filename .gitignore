@@ -1,0 +1,27 @@
+# --- Veri seti (yeniden indirilebilir, repoya girmesin) ---
+spiqa_data/
+
+# --- Notebook'un ürettiği çıktılar (yeniden üretilebilir) ---
+spiqa_preprocessed.jsonl
+spiqa_sentences.csv
+spiqa_clean_corpus.txt
+spiqa_bpe_8k.json
+tokenizer_comparison.csv
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# --- Ortam / editör ---
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
