@@ -32,7 +32,7 @@ Do not use `load_dataset("google/spiqa")`: the dataset viewer copy is a preview 
 ## Repository structure
 
 ```
-NLP-STUDY/
+multimodal-scientific-qa/
 ├── notebooks/
 │   └── 01_lab_preprocessing_tokenization.ipynb
 ├── archive/
@@ -63,8 +63,8 @@ The test set is small, so these scores are unstable. The random split scores abo
 ## Getting started
 
 ```bash
-git clone https://github.com/tahaaoztrkk/NLP-STUDY.git
-cd NLP-STUDY
+git clone https://github.com/tahaaoztrkk/multimodal-scientific-qa.git
+cd multimodal-scientific-qa
 pip install -r requirements.txt
 ```
 
